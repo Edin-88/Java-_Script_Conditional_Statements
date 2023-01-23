@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Conditional Statements</title>
+</head>
+<body id="body"> 
+<!-- form -->
+<form onsubmit="return false">
+    <label for="range">AQI:</label>
+    <input type="range" name="range" onchange="checkAirQuality()"  min="0" max="150" step="1" value="50" id="aqi">
+    <p>Level of health concern: <span id="healthConcern"></span></p>
+    <p>Level of health effect: <span id="healthEffect"></span> </p>
+
+</form>
+
+
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>
