@@ -8,12 +8,12 @@ const johnGröße = 170
 
 // Mike
 const mikeAlter = 34
-const JohnGröße = 168
+const mikeGröße = 168
 
 // Funktion Punkte Berechnen
 function berechnePunkte() {
-    const ergebnisJohn = (johnAlter * 5) + 170
-    const ergebnisMike = (mikeAlter * 5) + 168
+    const ergebnisJohn = (johnAlter * 5) + johnGröße
+    const ergebnisMike = (mikeAlter * 5) + mikeGröße
         if (ergebnisJohn > ergebnisMike) {
              gewinnerAnzeigen.innerHTML = "John mit: " + ergebnisJohn;
         }   else if (ergebnisJohn < ergebnisMike) {
